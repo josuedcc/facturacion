@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDetalleGuia" targetNamespace="http://tempuri.org/dsDetalleGuia.xsd" xmlns:mstns="http://tempuri.org/dsDetalleGuia.xsd" xmlns="http://tempuri.org/dsDetalleGuia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDetalleGuia" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsDetalleGuia" msprop:Generator_UserDSName="dsDetalleGuia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tDetalleguia" msprop:Generator_TableClassName="tDetalleguiaDataTable" msprop:Generator_TableVarName="tabletDetalleguia" msprop:Generator_TablePropName="tDetalleguia" msprop:Generator_RowDeletingName="tDetalleguiaRowDeleting" msprop:Generator_RowChangingName="tDetalleguiaRowChanging" msprop:Generator_RowEvHandlerName="tDetalleguiaRowChangeEventHandler" msprop:Generator_RowDeletedName="tDetalleguiaRowDeleted" msprop:Generator_UserTableName="tDetalleguia" msprop:Generator_RowChangedName="tDetalleguiaRowChanged" msprop:Generator_RowEvArgName="tDetalleguiaRowChangeEvent" msprop:Generator_RowClassName="tDetalleguiaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cantidad" msprop:Generator_ColumnVarNameInTable="columncantidad" msprop:Generator_ColumnPropNameInRow="cantidad" msprop:Generator_ColumnPropNameInTable="cantidadColumn" msprop:Generator_UserColumnName="cantidad" type="xs:string" minOccurs="0" />
+              <xs:element name="descp" msprop:Generator_ColumnVarNameInTable="columndescp" msprop:Generator_ColumnPropNameInRow="descp" msprop:Generator_ColumnPropNameInTable="descpColumn" msprop:Generator_UserColumnName="descp" type="xs:string" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

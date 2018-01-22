@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRpFacturas" targetNamespace="http://tempuri.org/dsRpFacturas.xsd" xmlns:mstns="http://tempuri.org/dsRpFacturas.xsd" xmlns="http://tempuri.org/dsRpFacturas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRpFacturas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRpFacturas" msprop:Generator_UserDSName="dsRpFacturas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="facturas" msprop:Generator_TableClassName="facturasDataTable" msprop:Generator_TableVarName="tablefacturas" msprop:Generator_RowChangedName="facturasRowChanged" msprop:Generator_TablePropName="facturas" msprop:Generator_RowDeletingName="facturasRowDeleting" msprop:Generator_RowChangingName="facturasRowChanging" msprop:Generator_RowEvHandlerName="facturasRowChangeEventHandler" msprop:Generator_RowDeletedName="facturasRowDeleted" msprop:Generator_RowClassName="facturasRow" msprop:Generator_UserTableName="facturas" msprop:Generator_RowEvArgName="facturasRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RUC" msprop:Generator_ColumnVarNameInTable="columnRUC" msprop:Generator_ColumnPropNameInRow="RUC" msprop:Generator_ColumnPropNameInTable="RUCColumn" msprop:Generator_UserColumnName="RUC" type="xs:string" minOccurs="0" />
+              <xs:element name="RAZON_x0020_SOCIAL" msprop:Generator_ColumnVarNameInTable="columnRAZON_SOCIAL" msprop:Generator_ColumnPropNameInRow="RAZON_SOCIAL" msprop:Generator_ColumnPropNameInTable="RAZON_SOCIALColumn" msprop:Generator_UserColumnName="RAZON SOCIAL" type="xs:string" minOccurs="0" />
+              <xs:element name="IMPORTE" msprop:Generator_ColumnVarNameInTable="columnIMPORTE" msprop:Generator_ColumnPropNameInRow="IMPORTE" msprop:Generator_ColumnPropNameInTable="IMPORTEColumn" msprop:Generator_UserColumnName="IMPORTE" type="xs:string" minOccurs="0" />
+              <xs:element name="FECHA" msprop:Generator_ColumnVarNameInTable="columnFECHA" msprop:Generator_ColumnPropNameInRow="FECHA" msprop:Generator_ColumnPropNameInTable="FECHAColumn" msprop:Generator_UserColumnName="FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="NUMERACION" msprop:Generator_ColumnVarNameInTable="columnNUMERACION" msprop:Generator_ColumnPropNameInRow="NUMERACION" msprop:Generator_ColumnPropNameInTable="NUMERACIONColumn" msprop:Generator_UserColumnName="NUMERACION" type="xs:string" minOccurs="0" />
+              <xs:element name="SERIE" msprop:Generator_ColumnVarNameInTable="columnSERIE" msprop:Generator_ColumnPropNameInRow="SERIE" msprop:Generator_ColumnPropNameInTable="SERIEColumn" msprop:Generator_UserColumnName="SERIE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="filtro" msprop:Generator_TableClassName="filtroDataTable" msprop:Generator_TableVarName="tablefiltro" msprop:Generator_TablePropName="filtro" msprop:Generator_RowDeletingName="filtroRowDeleting" msprop:Generator_RowChangingName="filtroRowChanging" msprop:Generator_RowEvHandlerName="filtroRowChangeEventHandler" msprop:Generator_RowDeletedName="filtroRowDeleted" msprop:Generator_UserTableName="filtro" msprop:Generator_RowChangedName="filtroRowChanged" msprop:Generator_RowEvArgName="filtroRowChangeEvent" msprop:Generator_RowClassName="filtroRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FECHA_x0020_DE_x0020_INICIO" msprop:Generator_ColumnVarNameInTable="columnFECHA_DE_INICIO" msprop:Generator_ColumnPropNameInRow="FECHA_DE_INICIO" msprop:Generator_ColumnPropNameInTable="FECHA_DE_INICIOColumn" msprop:Generator_UserColumnName="FECHA DE INICIO" type="xs:string" minOccurs="0" />
+              <xs:element name="FECHA_x0020_DE_x0020_FIN" msprop:Generator_ColumnVarNameInTable="columnFECHA_DE_FIN" msprop:Generator_ColumnPropNameInRow="FECHA_DE_FIN" msprop:Generator_ColumnPropNameInTable="FECHA_DE_FINColumn" msprop:Generator_UserColumnName="FECHA DE FIN" type="xs:string" minOccurs="0" />
+              <xs:element name="IMPORTE_x0020_TOTAL" msprop:Generator_ColumnVarNameInTable="columnIMPORTE_TOTAL" msprop:Generator_ColumnPropNameInRow="IMPORTE_TOTAL" msprop:Generator_ColumnPropNameInTable="IMPORTE_TOTALColumn" msprop:Generator_UserColumnName="IMPORTE TOTAL" type="xs:string" minOccurs="0" />
+              <xs:element name="SERIE" msprop:Generator_ColumnVarNameInTable="columnSERIE" msprop:Generator_ColumnPropNameInRow="SERIE" msprop:Generator_ColumnPropNameInTable="SERIEColumn" msprop:Generator_UserColumnName="SERIE" type="xs:string" minOccurs="0" />
+              <xs:element name="HABILITADOS" msprop:Generator_ColumnVarNameInTable="columnHABILITADOS" msprop:Generator_ColumnPropNameInRow="HABILITADOS" msprop:Generator_ColumnPropNameInTable="HABILITADOSColumn" msprop:Generator_UserColumnName="HABILITADOS" type="xs:string" minOccurs="0" />
+              <xs:element name="ANULADOS" msprop:Generator_ColumnVarNameInTable="columnANULADOS" msprop:Generator_ColumnPropNameInRow="ANULADOS" msprop:Generator_ColumnPropNameInTable="ANULADOSColumn" msprop:Generator_UserColumnName="ANULADOS" type="xs:string" minOccurs="0" />
+              <xs:element name="TODOS" msprop:Generator_ColumnVarNameInTable="columnTODOS" msprop:Generator_ColumnPropNameInRow="TODOS" msprop:Generator_ColumnPropNameInTable="TODOSColumn" msprop:Generator_UserColumnName="TODOS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
